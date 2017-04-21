@@ -1,0 +1,30 @@
+/* pages/goods/goods.wxss */
+.goods{
+    display: flex;
+    flex-direction: column;
+}
+.goods-img img{
+    display: block;
+    float: left;
+}
+.mes-box{
+    display: flex;
+    background: #fff;
+    padding: 20rpx;
+    flex-direction: row;
+    border-bottom: 1px solid #efefef;
+}
+.price{
+    color: #ff3300;
+}
+.label{
+    padding: 4rpx 10rpx;
+    background: #efefef;
+    margin-left: 20rpx;
+}
+.describe{
+    background: #fff;
+    padding: 0rpx 20rpx 20rpx;
+    flex-direction: row;
+    line-height: 60rpx;
+}

@@ -1,0 +1,39 @@
+/* pages/users/users.wxss */
+@import "../space/space.wxss";
+.users{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100rpx 0rpx;
+}
+.userinfo-avatar {
+    width: 128rpx;
+    height: 128rpx;
+    margin: 20rpx;
+    border-radius: 50%;
+}
+.userinfo-nickname {
+    color: #666;
+    font-size: 32rpx;
+}
+.my-order{
+    padding:20rpx;
+    display: flex;
+    flex-direction: row;
+}
+.shoping-cart{
+    padding:20rpx;
+    display: flex;
+    flex-direction: row;
+}
+.users .users-text{
+    font-size: 24rpx;
+    color: #666;
+    margin-left: 20rpx;
+}

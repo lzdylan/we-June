@@ -1,0 +1,57 @@
+/* pages/addAddress/addAddress.wxss */
+.container{
+    margin-bottom: 300rpx;
+}
+.addAddress{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.addAddress:last-child{
+    border-bottom: none;
+}
+.address-title{
+    line-height: 60rpx;
+    padding-left: 20rpx;
+    background: #e3e8ee;
+}
+.form-item{
+    margin: 0rpx 20rpx;
+    line-height: 80rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #e3e8ee;
+}
+.form-item:last-child{
+    border-bottom: none;
+}
+.label{
+    width: 140rpx;
+}
+.form-item picker{
+    font-family: "微软雅黑";
+    width: 560rpx;
+    line-height: 80rpx;
+    height: 80rpx;
+}
+.form-item input{
+    width: 560rpx;
+    line-height: 80rpx;
+    height: 80rpx;
+}
+.form-item textarea{
+    width: 710rpx;
+    height: 96rpx;
+    margin-top: 20rpx;
+}
+.submit{
+    position: fixed;
+    bottom:10rpx;
+    background: #fff;
+    width: 100%;
+    z-index: 1000;
+}
+.submit button{
+    margin: 20rpx 20rpx;
+}

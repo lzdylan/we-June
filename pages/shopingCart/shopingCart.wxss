@@ -1,1 +1,83 @@
 /* pages/shopingCart/shopingCart.wxss */
+@import "../space/space.wxss";
+.container{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 150rpx;
+    justify-content: space-between;
+}
+.list-box{
+    margin: 0rpx 20rpx;
+}
+.add-goods{
+    color: #ff3300;
+    line-height: 80rpx;
+    text-align: center;
+    display: block;
+}
+.list-title{
+    font-size: 30rpx;
+    line-height: 80rpx;
+    display: block;
+    border-bottom: 1px solid #e3e8ee;
+}
+.list-goods{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20rpx 0rpx;
+    line-height: 40rpx;
+    border-bottom: 1px solid #e3e8ee;
+}
+.price-box{
+    color: #ff3300;
+}
+.address{
+    margin: 0rpx 20rpx;
+}
+.address-title{
+    font-size: 30rpx;
+    line-height: 80rpx;
+    display: block;
+    border-bottom: 1px solid #e3e8ee;
+}
+.message-box{
+    line-height: 80rpx;
+    margin: 20rpx 0rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.telephone, .mes-text{
+    line-height: 48rpx;
+}
+.amount{
+    margin: 0rpx 20rpx;
+}
+.amount-title{
+    line-height: 80rpx;
+}
+.amount-box{
+    display: flex;
+    flex-direction: row;
+    line-height: 80rpx;
+    justify-content: space-between;
+    border-bottom: 1px solid #e3e8ee;
+}
+.amount-box:last-child{
+    border-bottom: none;
+}
+.amount-price{
+    color: #ff3300;
+    margin-left: 20rpx;
+    line-height: 80rpx;
+}
+.submit{
+    position: fixed;
+    bottom: 0rpx;
+    width: 100%;
+    background: #ffffff;
+}
+.submit button{
+    border-radius: 0rpx;
+}

@@ -1,0 +1,46 @@
+<!--pages/orderDetails/orderDetails.wxml-->
+<import src="../space/space.wxml"/>
+<scroll-view class="container">
+    <view class="orderDetails">
+        <view class="order-mess">
+            <text class="order-title">订单信息</text>
+            <view class="message-box">下单时间：<text class="message">2017-04-24 18:44:41</text></view>
+            <view class="message-box">订单编号：<text class="message">1235456478974645</text></view>
+            <view class="message-box-block">收货信息：<text class="message-block">137****8522 尹宏伟 收</text><text class="message-block">中国 浙江 杭州 余杭区 良渚文化村七贤郡21幢2单元503</text></view>
+            <view class="message-box">收货时间：<text class="message">不限送货时间</text></view>
+        </view>
+        <view class="details-list-box">
+            <text class="details-list-title">购物清单</text>
+            <view class="details-list">
+                <image src="../../images/1.jpg" mode="widthFix" style="width:50px;"></image>
+                <text>南洋金珠14mm-16mm正圆无限18k金吊坠</text>
+                <view class="price-box">1×<text class="price">2499元</text></view>
+            </view>
+            <view class="details-list">
+                <image src="../../images/1.jpg" mode="widthFix" style="width:50px;"></image>
+                <text>南洋金珠14mm-16mm正圆无限18k金吊坠</text>
+                <view class="price-box">1×<text class="price">2499元</text></view>
+            </view>
+            <view class="details-list">
+                <image src="../../images/1.jpg" mode="widthFix" style="width:50px;"></image>
+                <text>南洋金珠14mm-16mm正圆无限18k金吊坠</text>
+                <view class="price-box">1×<text class="price">2499元</text></view>
+            </view>
+            <view class="details-list">
+                <image src="../../images/1.jpg" mode="widthFix" style="width:50px;"></image>
+                <text>南洋金珠14mm-16mm正圆无限18k金吊坠</text>
+                <view class="price-box">1×<text class="price">2499元</text></view>
+            </view>
+        </view>
+        <view class="amount">
+            <text class="amount-title">订单金额</text>
+            <view class="amount-box">商品总价<text class="price">2499元</text></view>
+            <view class="amount-box">运费<text class="price">0元</text></view>
+            <view class="amount-box">应付总额<text class="price">2499元</text></view>
+        </view>
+        <template is="spaceTemplate"></template>
+    </view>
+    <view class="submit">
+        <button type="primary">微信支付</button>
+    </view>
+</scroll-view>

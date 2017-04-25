@@ -1,0 +1,31 @@
+/* pages/order/order.wxss */
+@import "../space/space.wxss";
+.order-title{
+    background: #e3e8ee;
+    line-height: 60rpx;
+    display: block;
+    padding-left: 20rpx;
+}
+.order-mes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10rpx;
+}
+.order-state-box{
+    width: 500rpx;
+}
+.order-state{
+    line-height: 60rpx;
+}
+.order-time{
+    color: #657180;
+    display: block;
+    line-height: 60rpx;
+    font-size: 20rpx;
+}
+.price{
+    line-height: 110rpx;
+    color: #ff3300;
+    margin-right: 20rpx;
+}

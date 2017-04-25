@@ -1,6 +1,7 @@
 /* pages/goods/goods.wxss */
 .goods{
     display: flex;
+    font-family: '微软雅黑';
     flex-direction: column;
 }
 .goods-img img{
@@ -12,19 +13,20 @@
     background: #fff;
     padding: 20rpx;
     flex-direction: row;
-    border-bottom: 1px solid #efefef;
+    border-bottom: 1px solid #e3e8ee;
 }
 .price{
     color: #ff3300;
+    line-height: 44rpx;
 }
 .label{
-    padding: 4rpx 10rpx;
-    background: #efefef;
+    padding: 6rpx 12rpx;
+    background: #e3e8ee;
     margin-left: 20rpx;
 }
 .describe{
     background: #fff;
     padding: 0rpx 20rpx 20rpx;
     flex-direction: row;
-    line-height: 60rpx;
+    line-height: 80rpx;
 }

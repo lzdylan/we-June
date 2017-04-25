@@ -15,6 +15,25 @@ Page({
       })
     })
   },
+  goShopingCart: function(){
+    wx.switchTab({
+      url: '../shopingCart/shopingCart'
+    })
+  },
+  goOrder: function(){
+    wx.navigateTo({
+      url: '../order/order',
+      success: function(res){
+        // success
+      },
+      fail: function(res) {
+        // fail
+      },
+      complete: function(res) {
+        // complete
+      }
+    })
+  },
   onReady:function(){
     // 页面渲染完成
   },

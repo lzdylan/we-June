@@ -1,0 +1,38 @@
+/* pages/addressList/addressList.wxss */
+@import "../space/space.wxss";
+.addressList{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 120rpx;
+}
+.address-user{
+    display: block;
+}
+.address-list{
+    margin: 20rpx 20rpx;
+    line-height: 48rpx;
+}
+.add-message{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.edit-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75rpx;
+}
+.add-message image{
+    margin: 10rpx 0rpx;
+}
+.add-message icon{
+    margin: 8rpx 0rpx;
+}
+.submit{
+    position: fixed;
+    bottom:0rpx;
+    background: #fff;
+    width: 100%;
+}

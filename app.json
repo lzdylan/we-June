@@ -2,9 +2,13 @@
   "pages":[
     "pages/index/index",
     "pages/category/category",
-    "pages/shopingCart/shopingCart",
     "pages/list/list",
+    "pages/shopingCart/shopingCart",
+    "pages/addAddress/addAddress",
+    "pages/addressList/addressList",
     "pages/detail/detail",
+    "pages/order/order",
+    "pages/orderDetails/orderDetails",
     "pages/users/users",
     "pages/goods/goods",
     "pages/space/space",
@@ -18,7 +22,7 @@
   },
   "tabBar": {
     "selectedColor": "#ff3300",
-    "borderStyle": "white",
+    "borderStyle": "#e3e8ee",
     "list": [{
       "pagePath": "pages/index/index",
       "iconPath": "images/tab/index.png",

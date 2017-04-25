@@ -1,5 +1,5 @@
 /* pages/space/space.wxss */
 .space{
     height: 20rpx;
-    background: #efefef;
+    background: #e3e8ee;
 }

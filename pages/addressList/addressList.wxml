@@ -1,0 +1,31 @@
+<!--pages/addressList/addressList.wxml-->
+<import src="../space/space.wxml"/>
+<view class="container">
+    <view class="addressList">
+        <template is="spaceTemplate"></template>
+        <view class="address-list" bindtap="goShopingCart">
+            <text class="address-user">13738048522 尹宏伟 收</text>
+            <view class="add-message">
+                <text>浙江 杭州市 余杭区 良渚街道 良渚文化村</text>
+                <view class="edit-box">
+                    <image src="../../images/edit.png" style="width: 15px" mode="widthFix"></image>
+                    <icon type="success_no_circle" size="15" />
+                </view>
+            </view>
+        </view>
+        <template is="spaceTemplate"></template>
+        <view class="address-list" bindtap="goShopingCart">
+            <text class="address-user">13738048522 尹宏伟 收</text>
+            <view class="add-message">
+                <text class="address-mes">浙江 杭州市 余杭区 良渚街道 良渚文化村七贤郡21幢2单元503</text>
+                <view class="edit-box">
+                    <image src="../../images/edit.png" style="width: 15px" mode="widthFix"></image>
+                </view>
+            </view>
+        </view>
+        <template is="spaceTemplate"></template>
+        <view class="submit">
+            <button type="warn" style="border-radius:0px" bindtap="goAddAddress">新增收货地址</button>
+        </view>
+    </view>
+</view>

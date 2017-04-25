@@ -1,12 +1,12 @@
-// pages/shopingCart/shopingCart.js
+// pages/addressList/addressList.js
 Page({
   data:{},
   onLoad:function(options){
     // 页面初始化 options为页面跳转所带来的参数
   },
-  goAddressList: function() {
-    wx.navigateTo({
-      url: '../addressList/addressList',
+  goShopingCart: function() {
+    wx.switchTab({
+      url: '../shopingCart/shopingCart',
       success: function(res){
         // success
       },
@@ -18,9 +18,9 @@ Page({
       }
     })
   },
-  goIndex: function(){
-    wx.switchTab({
-      url: '../index/index',
+  goAddAddress: function() {
+    wx.navigateTo({
+      url: '../addAddress/addAddress',
       success: function(res){
         // success
       },

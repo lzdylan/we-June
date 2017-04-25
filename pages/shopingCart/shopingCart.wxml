@@ -1,2 +1,70 @@
 <!--pages/shopingCart/shopingCart.wxml-->
-<text>pages/shopingCart/shopingCart.wxml</text>
+<import src="../space/space.wxml"/>
+<scroll-view class="container">
+    <template is="spaceTemplate"></template>
+    <view class="list-box">
+        <text class="list-title">购物清单</text>
+        <view class="list-goods">
+            <image src="../../images/1.jpg" mode="widthFix" style="width:20px;"></image>
+            <text>南洋金珠18k金14mm-16mm正圆无暇吊坠</text>
+            <view class="price-box">1×<text class="price">2499元</text></view>
+        </view>
+        <view class="list-goods">
+            <image src="../../images/1.jpg" mode="widthFix" style="width:20px;"></image>
+            <text>南洋金珠18k金14mm-16mm正圆无暇吊坠</text>
+            <view class="price-box">1×<text class="price">2499元</text></view>
+        </view>
+        <view class="list-goods">
+            <image src="../../images/1.jpg" mode="widthFix" style="width:20px;"></image>
+            <text>南洋金珠18k金14mm-16mm正圆无暇吊坠</text>
+            <view class="price-box">1×<text class="price">2499元</text></view>
+        </view>
+        <view class="list-goods">
+            <image src="../../images/1.jpg" mode="widthFix" style="width:20px;"></image>
+            <text>南洋金珠18k金14mm-16mm正圆无暇吊坠</text>
+            <view class="price-box">1×<text class="price">2499元</text></view>
+        </view>
+        <text class="add-goods" bindtap="goIndex">继续添加商品</text>
+    </view>
+    <template is="spaceTemplate"></template>
+    <view class="address">
+        <text class="address-title">收货信息</text>
+        <view class="message-box" bindtap="goAddressList">
+            <text class="telephone">137****8522 尹宏伟 收</text>
+            <text class="mes-text">浙江 杭州市 余杭区 良渚街道 良渚文化村七贤郡21幢2单元503</text>
+        </view>
+    </view>
+    <template is="spaceTemplate"></template>
+    <view class="address">
+        <text class="address-title">配送时间</text>
+        <view class="message-box">
+            <text class="mes-text">不限配送时间</text>
+        </view>
+    </view>
+    <template is="spaceTemplate"></template>
+    <view class="amount">
+        <view class="amount-box">
+            <text class="amount-title">订单金额</text>
+            <view class="amount-text">
+                <text>应付</text>
+                <text class="amount-price">2499.00元</text>
+            </view>
+        </view>
+        <view class="amount-box">
+            <text class="amount-title">商品总价</text>
+            <view class="amount-text">
+                <text class="amount-price">2499.00元</text>
+            </view>
+        </view>
+        <view class="amount-box">
+            <text class="amount-title">运费</text>
+            <view class="amount-text">
+                <text class="amount-price">0.00元</text>
+            </view>
+        </view>
+    </view>
+    <template is="spaceTemplate"></template>
+    <view class="submit">
+        <button type="primary">微信支付</button>
+    </view>
+</scroll-view>

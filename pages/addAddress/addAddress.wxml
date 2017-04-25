@@ -1,0 +1,56 @@
+<!--pages/addAddress/addAddress.wxml-->
+<view class="container">
+    <view class="addAddress">
+        <text class="address-title">收货人信息</text>
+        <view class="form-item">
+            <text class="label">姓名</text>
+            <input placeholder="真是姓名"  type="text"/>
+        </view>
+        <view class="form-item">
+            <text>电话</text>
+            <input placeholder="手机号码"  type="text"/>
+        </view>
+    </view>
+    <view class="addAddress">
+        <text class="address-title">收货地址</text>
+        <view class="form-item">
+            <text class="label">省/直辖市</text>
+             <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+                <view class="picker">
+                {{array[index]}}
+                </view>
+            </picker>
+        </view>
+        <view class="form-item">
+            <text class="label">市</text>
+             <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+                <view class="picker">
+                {{array[index]}}
+                </view>
+            </picker>
+        </view>
+        <view class="form-item">
+            <text class="label">区/县</text>
+             <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+                <view class="picker">
+                {{array[index]}}
+                </view>
+            </picker>
+        </view>
+        <view class="form-item">
+            <text class="label">街道信息</text>
+             <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+                <view class="picker">
+                {{array[index]}}
+                </view>
+            </picker>
+        </view>
+        <view class="form-item">
+            <textarea  placeholder="详细地址" />
+        </view>
+    </view>
+    <view class="submit">
+        <button type="primary" bindtap="goShopingCart">保存并使用</button>
+        <button type="warn">删除</button>
+    </view>
+</view>

@@ -1,9 +1,9 @@
 /**app.wxss**/
 .container {
-  height: 100%;
   font-family: '微软雅黑';
   font-size: 24rpx;
   display: flex;
+  color: #464c5b;
   flex-direction: column;
   justify-content: space-between;
   box-sizing: border-box;

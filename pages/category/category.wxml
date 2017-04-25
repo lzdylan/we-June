@@ -3,159 +3,159 @@
     <view scroll-y="true" class="scroll-view">
         <text class="title">—— 颈链 ——</text>
         <view class="scroll-view-content">
-                <view class="scroll-img">
+                <view class="scroll-img" bindtap="goList">
                     <image src="../../images/17.jpg" mode="widthFix" style="width:50px;"></image>
                     <text class="name">南洋金珠</text>
                 </view>
-                <view class="scroll-img">
+                <view class="scroll-img" bindtap="goList">
                     <image src="../../images/15.jpg" mode="widthFix" style="width:50px;"></image>
                     <text class="name">卡地亚</text>
                 </view>
-                <view class="scroll-img">
+                <view class="scroll-img" bindtap="goList">
                     <image src="../../images/16.jpg" mode="widthFix" style="width:50px;"></image>
                     <text class="name">黑珍珠</text>
                 </view>
-                <view class="scroll-img">
+                <view class="scroll-img" bindtap="goList">
                     <image src="../../images/14.jpg" mode="widthFix" style="width:50px;"></image>
                     <text class="name">淡水珠</text>
                 </view>
         </view>
         <text class="title">—— 吊坠 ——</text>
         <view class="scroll-view-content">
-                <view class="scroll-img">
+                <view class="scroll-img" bindtap="goList">
                     <image src="../../images/2.jpg" mode="widthFix" style="width:50px;"></image>
                     <text class="name">南洋金珠</text>
                 </view>
-                <view class="scroll-img">
+                <view class="scroll-img" bindtap="goList">
                     <image src="../../images/3.jpg" mode="widthFix" style="width:50px;"></image>
                     <text class="name">卡地亚</text>
                 </view>
-                <view class="scroll-img">
+                <view class="scroll-img" bindtap="goList">
                     <image src="../../images/1.jpg" mode="widthFix" style="width:50px;"></image>
                     <text class="name">黑珍珠</text>
                 </view>
-                <view class="scroll-img">
+                <view class="scroll-img" bindtap="goList">
                     <image src="../../images/4.jpg" mode="widthFix" style="width:50px;"></image>
                     <text class="name">淡水珠</text>
                 </view>
         </view>
         <text class="title">—— 手链 ——</text>
         <view class="scroll-view-content">
-                <view class="scroll-img">
+                <view class="scroll-img" bindtap="goList">
                     <image src="../../images/11.jpg" mode="widthFix" style="width:50px;"></image>
                     <text class="name">南洋金珠</text>
                 </view>
-                <view class="scroll-img">
+                <view class="scroll-img" bindtap="goList">
                     <image src="../../images/12.jpg" mode="widthFix" style="width:50px;"></image>
                     <text class="name">卡地亚</text>
                 </view>
-                <view class="scroll-img">
+                <view class="scroll-img" bindtap="goList">
                     <image src="../../images/13.jpg" mode="widthFix" style="width:50px;"></image>
                     <text class="name">淡水珠</text>
                 </view>
         </view>
         <text class="title">—— 戒指 ——</text>
         <view class="scroll-view-content">
-                <view class="scroll-img">
+                <view class="scroll-img" bindtap="goList">
                     <image src="../../images/9.jpg" mode="widthFix" style="width:50px;"></image>
                     <text class="name">南洋金珠</text>
                 </view>
-                <view class="scroll-img">
+                <view class="scroll-img" bindtap="goList">
                     <image src="../../images/10.jpg" mode="widthFix" style="width:50px;"></image>
                     <text class="name">卡地亚</text>
                 </view>
-                <view class="scroll-img">
+                <view class="scroll-img" bindtap="goList">
                     <image src="../../images/8.jpg" mode="widthFix" style="width:50px;"></image>
                     <text class="name">黑珍珠</text>
                 </view>
         </view>
         <text class="title">—— 耳钉 ——</text>
         <view class="scroll-view-content">
-                <view class="scroll-img">
+                <view class="scroll-img" bindtap="goList">
                     <image src="../../images/7.jpg" mode="widthFix" style="width:50px;"></image>
                     <text class="name">南洋金珠</text>
                 </view>
-                <view class="scroll-img">
+                <view class="scroll-img" bindtap="goList">
                     <image src="../../images/5.jpg" mode="widthFix" style="width:50px;"></image>
                     <text class="name">卡地亚</text>
                 </view>
-                <view class="scroll-img">
+                <view class="scroll-img" bindtap="goList">
                     <image src="../../images/6.jpg" mode="widthFix" style="width:50px;"></image>
                     <text class="name">黑珍珠</text>
                 </view>
         </view>
         <text class="title">—— 胸针 ——</text>
         <view class="scroll-view-content">
-                <view class="scroll-img">
+                <view class="scroll-img" bindtap="goList">
                     <image src="../../images/18.jpg" mode="widthFix" style="width:50px;"></image>
                     <text class="name">黑珍珠</text>
                 </view>
         </view>
         <text class="title">—— 其他 ——</text>
         <view class="scroll-view-content">
-                <view class="scroll-img">
+                <view class="scroll-img" bindtap="goList">
                     <image src="../../images/4.jpg" mode="widthFix" style="width:50px;"></image>
                     <text class="name">面膜</text>
                 </view>
-                <view class="scroll-img">
+                <view class="scroll-img" bindtap="goList">
                     <image src="../../images/9.jpg" mode="widthFix" style="width:50px;"></image>
                     <text class="name">护手霜</text>
                 </view>
-                <view class="scroll-img">
+                <view class="scroll-img" bindtap="goList">
                     <image src="../../images/2.jpg" mode="widthFix" style="width:50px;"></image>
                     <text class="name">驻颜霜</text>
                 </view>
-                <view class="scroll-img">
+                <view class="scroll-img" bindtap="goList">
                     <image src="../../images/15.jpg" mode="widthFix" style="width:50px;"></image>
                     <text class="name">手镯</text>
                 </view>
-                <view class="scroll-img">
+                <view class="scroll-img" bindtap="goList">
                     <image src="../../images/18.jpg" mode="widthFix" style="width:50px;"></image>
                     <text class="name">珍珠粉</text>
                 </view>
         </view>
         <text class="title">—— 其他 ——</text>
         <view class="scroll-view-content">
-                <view class="scroll-img">
+                <view class="scroll-img" bindtap="goList">
                     <image src="../../images/4.jpg" mode="widthFix" style="width:50px;"></image>
                     <text class="name">面膜</text>
                 </view>
-                <view class="scroll-img">
+                <view class="scroll-img" bindtap="goList">
                     <image src="../../images/9.jpg" mode="widthFix" style="width:50px;"></image>
                     <text class="name">护手霜</text>
                 </view>
-                <view class="scroll-img">
+                <view class="scroll-img" bindtap="goList">
                     <image src="../../images/2.jpg" mode="widthFix" style="width:50px;"></image>
                     <text class="name">驻颜霜</text>
                 </view>
-                <view class="scroll-img">
+                <view class="scroll-img" bindtap="goList">
                     <image src="../../images/15.jpg" mode="widthFix" style="width:50px;"></image>
                     <text class="name">手镯</text>
                 </view>
-                <view class="scroll-img">
+                <view class="scroll-img" bindtap="goList">
                     <image src="../../images/18.jpg" mode="widthFix" style="width:50px;"></image>
                     <text class="name">珍珠粉</text>
                 </view>
         </view>
         <text class="title">—— 其他 ——</text>
         <view class="scroll-view-content">
-                <view class="scroll-img">
+                <view class="scroll-img" bindtap="goList">
                     <image src="../../images/4.jpg" mode="widthFix" style="width:50px;"></image>
                     <text class="name">面膜</text>
                 </view>
-                <view class="scroll-img">
+                <view class="scroll-img" bindtap="goList">
                     <image src="../../images/9.jpg" mode="widthFix" style="width:50px;"></image>
                     <text class="name">护手霜</text>
                 </view>
-                <view class="scroll-img">
+                <view class="scroll-img" bindtap="goList">
                     <image src="../../images/2.jpg" mode="widthFix" style="width:50px;"></image>
                     <text class="name">驻颜霜</text>
                 </view>
-                <view class="scroll-img">
+                <view class="scroll-img" bindtap="goList">
                     <image src="../../images/15.jpg" mode="widthFix" style="width:50px;"></image>
                     <text class="name">手镯</text>
                 </view>
-                <view class="scroll-img">
+                <view class="scroll-img" bindtap="goList">
                     <image src="../../images/18.jpg" mode="widthFix" style="width:50px;"></image>
                     <text class="name">珍珠粉</text>
                 </view>

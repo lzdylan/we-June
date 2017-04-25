@@ -1,0 +1,41 @@
+/* pages/assess/assess.wxss */
+.assess{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0rpx 20rpx;
+    padding: 20rpx 0rpx;
+    line-height: 48rpx;
+    border-bottom: 1px solid #e3e8ee;
+}
+.assess:last-child{
+    border-bottom: none;
+}
+.assess-user{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20rpx;
+    width: 610rpx;
+}
+.assess-time{
+    color: #657180;
+}
+.user-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.user-image image{
+    margin-left: 20rpx;
+    margin-bottom: 20rpx;
+}
+.user-image image:first-child{
+    margin-left: 0rpx;
+    margin-bottom: 20rpx;
+}
+.userinfo-avatar {
+    width: 80rpx;
+    height: 80rpx;
+    border-radius: 50%;
+}

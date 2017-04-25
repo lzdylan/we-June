@@ -1,2 +1,70 @@
 <!--pages/list/list.wxml-->
-<text>pages/list/list.wxml</text>
+<scroll-view class="container">
+    <view class="goods-list-box">
+        <text class="goods-title">—— 南洋吊坠 ——</text>
+        <view class="goods-list" bindtap="goDetail">
+            <image src="../../images/2.jpg" mode="widthFix" style="width:80px"></image>
+            <view class="goods-message-box">
+                <text class="goods-name">南洋金珠18K金正圆无暇</text>
+                <text class="goods-message">正圆无暇 / 18K金 / 南洋金珠 / 纯银吊坠 / 正圆无暇 / 18K金 / 南洋金珠 / 纯银吊坠 /</text>
+                <text class="goods-price">2499</text>
+            </view>
+        </view>
+        <view class="goods-list" bindtap="goDetail">
+            <image src="../../images/2.jpg" mode="widthFix" style="width:80px"></image>
+            <view class="goods-message-box">
+                <text class="goods-name">南洋金珠18K金正圆无暇</text>
+                <text class="goods-message">正圆无暇 / 18K金 / 南洋金珠 / 纯银吊坠 / 正圆无暇 / 18K金 / 南洋金珠 / 纯银吊坠 /</text>
+                <text class="goods-price">2499</text>
+            </view>
+        </view>
+        <view class="goods-list" bindtap="goDetail">
+            <image src="../../images/2.jpg" mode="widthFix" style="width:80px"></image>
+            <view class="goods-message-box">
+                <text class="goods-name">南洋金珠18K金正圆无暇</text>
+                <text class="goods-message">正圆无暇 / 18K金 / 南洋金珠 / 纯银吊坠 / 正圆无暇 / 18K金 / 南洋金珠 / 纯银吊坠 /</text>
+                <text class="goods-price">2499</text>
+            </view>
+        </view>
+        <view class="goods-list" bindtap="goDetail">
+            <image src="../../images/2.jpg" mode="widthFix" style="width:80px"></image>
+            <view class="goods-message-box">
+                <text class="goods-name">南洋金珠18K金正圆无暇</text>
+                <text class="goods-message">正圆无暇 / 18K金 / 南洋金珠 / 纯银吊坠 / 正圆无暇 / 18K金 / 南洋金珠 / 纯银吊坠 /</text>
+                <text class="goods-price">2499</text>
+            </view>
+        </view>
+        <view class="goods-list" bindtap="goDetail">
+            <image src="../../images/2.jpg" mode="widthFix" style="width:80px"></image>
+            <view class="goods-message-box">
+                <text class="goods-name">南洋金珠18K金正圆无暇</text>
+                <text class="goods-message">正圆无暇 / 18K金 / 南洋金珠 / 纯银吊坠 / 正圆无暇 / 18K金 / 南洋金珠 / 纯银吊坠 /</text>
+                <text class="goods-price">2499</text>
+            </view>
+        </view>
+        <view class="goods-list" bindtap="goDetail">
+            <image src="../../images/2.jpg" mode="widthFix" style="width:80px"></image>
+            <view class="goods-message-box">
+                <text class="goods-name">南洋金珠18K金正圆无暇</text>
+                <text class="goods-message">正圆无暇 / 18K金 / 南洋金珠 / 纯银吊坠 / 正圆无暇 / 18K金 / 南洋金珠 / 纯银吊坠 /</text>
+                <text class="goods-price">2499</text>
+            </view>
+        </view>
+        <view class="goods-list" bindtap="goDetail">
+            <image src="../../images/2.jpg" mode="widthFix" style="width:80px"></image>
+            <view class="goods-message-box">
+                <text class="goods-name">南洋金珠18K金正圆无暇</text>
+                <text class="goods-message">正圆无暇 / 18K金 / 南洋金珠 / 纯银吊坠 / 正圆无暇 / 18K金 / 南洋金珠 / 纯银吊坠 /</text>
+                <text class="goods-price">2499</text>
+            </view>
+        </view>
+        <view class="goods-list" bindtap="goDetail">
+            <image src="../../images/2.jpg" mode="widthFix" style="width:80px"></image>
+            <view class="goods-message-box">
+                <text class="goods-name">南洋金珠18K金正圆无暇</text>
+                <text class="goods-message">正圆无暇 / 18K金 / 南洋金珠 / 纯银吊坠 / 正圆无暇 / 18K金 / 南洋金珠 / 纯银吊坠 /</text>
+                <text class="goods-price">2499</text>
+            </view>
+        </view>
+    </view>
+</scroll-view>

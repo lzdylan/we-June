@@ -12,6 +12,7 @@
     "pages/users/users",
     "pages/goods/goods",
     "pages/space/space",
+    "pages/assess/assess",
     "pages/logs/logs"
   ],
   "window":{

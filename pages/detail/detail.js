@@ -1,6 +1,54 @@
 // pages/detail/detail.js
 Page({
-  data:{},
+  data:{
+    imageWidth: wx.getSystemInfoSync().windowWidth,//图片宽度 
+    price: 2499,
+    label: ['南洋金珠','14-16mm正圆无暇','经典吊坠'],
+    userInfo: {}
+  },
+  goShopingCart: function() {
+    wx.switchTab({
+      url: '../shopingCart/shopingCart',
+      success: function(res){
+        // success
+      },
+      fail: function(res) {
+        // fail
+      },
+      complete: function(res) {
+        // complete
+      }
+    })
+  },
+  goBigimage: function() {
+    wx.previewImage({
+      // current: 'String', // 当前显示图片的链接，不填则默认为 urls 的第一张
+      urls: ['http://www.yespearl.com/upimg/zhenzhu/t_diaozhui0327150221_0.jpg'],
+      success: function(res){
+        // success
+      },
+      fail: function(res) {
+        // fail
+      },
+      complete: function(res) {
+        // complete
+      }
+    })
+  },
+  goAssess: function() {
+    wx.navigateTo({
+      url: '../assess/assess',
+      success: function(res){
+        // success
+      },
+      fail: function(res) {
+        // fail
+      },
+      complete: function(res) {
+        // complete
+      }
+    })
+  },
   onLoad:function(options){
     // 页面初始化 options为页面跳转所带来的参数
   },

@@ -1,7 +1,7 @@
 <!--pages/goods/goods.wxml-->
 <template name="goodsTemplate">
     <view class="container">
-        <view class="goods">
+        <view class="goods" bindtap="goDetails">
             <view class="goods-img">
                 <image src="{{imgUrls}}" mode="widthFix" style="width: {{imageWidth}}px;"></image>
             </view>

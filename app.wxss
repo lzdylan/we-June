@@ -1,7 +1,7 @@
 /**app.wxss**/
 .container {
   font-family: '微软雅黑';
-  font-size: 24rpx;
+  font-size: 26rpx;
   display: flex;
   color: #464c5b;
   flex-direction: column;

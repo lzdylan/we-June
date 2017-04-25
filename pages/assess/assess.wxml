@@ -1,0 +1,46 @@
+<!--pages/assess/assess.wxml-->
+<scroll-view class="container">
+    <view class="assess">
+        <view class="user-header">
+            <image src="../../images/goods.jpg" class="userinfo-avatar" mode="aspectFill"></image>
+        </view>
+        <view class="assess-user">
+            <text class="user-name">用户名</text>
+            <text class="user-assess">南洋金珠18K金正圆无暇</text>
+            <view class="user-image">
+                <image src="../../images/2.jpg" bindtap="goBigimage" style="width:80px" mode="widthFix"></image>
+            </view>
+            <text class="assess-time">2017-04-24</text>
+        </view>
+    </view>
+    <view class="assess">
+        <view class="user-header">
+            <image src="../../images/goods.jpg" class="userinfo-avatar" mode="aspectFill"></image>
+        </view>
+        <view class="assess-user">
+            <text class="user-name">用户名</text>
+            <text class="user-assess">南洋金珠18K金正圆无暇南洋金珠18K金正圆无暇南洋金珠18K金正圆无暇南洋金珠18K金正圆无暇南洋金珠18K金正圆无暇南洋金珠18K金正圆无暇南洋金珠18K金正圆无暇南洋金珠18K金正圆无暇南洋金珠18K金正圆无暇南洋金珠18K金正圆无暇南洋金珠18K金正圆无暇南洋金珠18K金正圆无暇</text>
+            <view class="user-image">
+                <image src="../../images/2.jpg" bindtap="goBigimage" style="width:80px" mode="widthFix"></image>
+                <image src="../../images/2.jpg" bindtap="goBigimage" style="width:80px" mode="widthFix"></image>
+                <image src="../../images/2.jpg" bindtap="goBigimage" style="width:80px" mode="widthFix"></image>
+            </view>
+            <text class="assess-time">2017-04-24</text>
+        </view>
+    </view>
+    <view class="assess">
+        <view class="user-header">
+            <image src="../../images/goods.jpg" class="userinfo-avatar" mode="aspectFill"></image>
+        </view>
+        <view class="assess-user">
+            <text class="user-name">用户名</text>
+            <text class="user-assess">南洋金珠18K金正圆无暇南洋金珠18K金正圆无暇南洋金珠18K金正圆无暇南洋金珠18K金正圆无暇南洋金珠18K金正圆无暇南洋金珠18K金正圆无暇南洋金珠18K金正圆无暇南洋金珠18K金正圆无暇南洋金珠18K金正圆无暇南洋金珠18K金正圆无暇南洋金珠18K金正圆无暇南洋金珠18K金正圆无暇</text>
+            <view class="user-image">
+                <image src="../../images/2.jpg" bindtap="goBigimage" style="width:80px" mode="widthFix"></image>
+                <image src="../../images/2.jpg" bindtap="goBigimage" style="width:80px" mode="widthFix"></image>
+                <image src="../../images/2.jpg" bindtap="goBigimage" style="width:80px" mode="widthFix"></image>
+            </view>
+            <text class="assess-time">2017-04-24</text>
+        </view>
+    </view>
+</scroll-view>

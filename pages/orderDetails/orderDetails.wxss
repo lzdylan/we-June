@@ -38,6 +38,7 @@
     flex-direction: row;
     line-height: 110rpx;
     margin: 0rpx 20rpx;
+    font-size: 24rpx;
     justify-content: space-between;
     border-bottom: 1px solid #e3e8ee;
 }

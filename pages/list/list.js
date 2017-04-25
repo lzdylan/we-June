@@ -4,6 +4,20 @@ Page({
   onLoad:function(options){
     // 页面初始化 options为页面跳转所带来的参数
   },
+  goDetail:function() {
+    wx.navigateTo({
+      url: '../detail/detail',
+      success: function(res){
+        // success
+      },
+      fail: function(res) {
+        // fail
+      },
+      complete: function(res) {
+        // complete
+      }
+    })
+  },
   onReady:function(){
     // 页面渲染完成
   },

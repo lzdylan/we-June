@@ -17,6 +17,20 @@ Page({
       url: '../logs/logs'
     })
   },
+  goDetails: function() {
+    wx.navigateTo({
+      url: '../detail/detail',
+      success: function(res){
+        // success
+      },
+      fail: function(res) {
+        // fail
+      },
+      complete: function(res) {
+        // complete
+      }
+    })
+  },
   onLoad: function () {
     console.log('onLoad')
     var that = this

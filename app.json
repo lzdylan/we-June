@@ -13,12 +13,13 @@
     "pages/goods/goods",
     "pages/space/space",
     "pages/assess/assess",
+    "pages/addAssess/addAssess",
     "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "六月生辰",
     "navigationBarTextStyle":"black"
   },
   "tabBar": {

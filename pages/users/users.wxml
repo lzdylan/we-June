@@ -11,11 +11,9 @@
             <image class="user-icon" style="width:12px;height:12px;" mode="aspectFit"  src="../../images/my-order.png"></image>
             <text class="users-text">我的订单</text>
         </view>
-        <template is="spaceTemplate"></template>
         <view class="shoping-cart" bindtap="goShopingCart">
             <image class="user-icon" style="width:12px;height:12px;" mode="aspectFit" src="../../images/tab/shopingCart.png"></image>
             <text class="users-text">我的购物车</text>
         </view>
-        <template is="spaceTemplate"></template>
     </view>
 </view>

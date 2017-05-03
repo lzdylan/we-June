@@ -32,7 +32,7 @@
 }
 .submit{
     position: fixed;
-    bottom:0rpx;
+    bottom:-2rpx;
     background: #fff;
     width: 100%;
 }

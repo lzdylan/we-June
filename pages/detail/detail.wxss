@@ -1,7 +1,7 @@
 /* pages/detail/detail.wxss */
 @import "../space/space.wxss";
 .detail{
-    padding-bottom: 120rpx;
+    padding-bottom: 92rpx;
 }
 .goods-name{
     background: #fff;
@@ -77,12 +77,23 @@
 }
 .submit{
     position: fixed;
-    bottom: 0rpx;
+    bottom: -2rpx;
     width: 100%;
     background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .submit button{
     border-radius: 0rpx;
+}
+.submit button.share-index{
+    width: 20%;
+    background: #ff9900;
+    color: #ffffff;
+}
+.submit button.share-buy{
+    width: 80%;
 }
 .goods-detail{
     display: flex;

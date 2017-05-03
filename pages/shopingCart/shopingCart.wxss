@@ -3,7 +3,7 @@
 .container{
     display: flex;
     flex-direction: column;
-    padding-bottom: 150rpx;
+    padding-bottom: 92rpx;
     justify-content: space-between;
 }
 .list-box{
@@ -74,9 +74,10 @@
 }
 .submit{
     position: fixed;
-    bottom: 0rpx;
+    bottom: -2rpx;
     width: 100%;
     background: #ffffff;
+    z-index: 1000;
 }
 .submit button{
     border-radius: 0rpx;

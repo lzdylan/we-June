@@ -1,5 +1,5 @@
 <!--pages/list/list.wxml-->
-<scroll-view class="container">
+<view class="container">
     <view class="goods-list-box">
         <text class="goods-title">—— 南洋吊坠 ——</text>
         <view class="goods-list" bindtap="goDetail">
@@ -67,4 +67,4 @@
             </view>
         </view>
     </view>
-</scroll-view>
+</view>

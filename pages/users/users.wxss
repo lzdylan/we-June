@@ -24,11 +24,13 @@
     padding:20rpx;
     display: flex;
     flex-direction: row;
+    border-bottom: 1px solid #e3e8ee;
 }
 .shoping-cart{
     padding:20rpx;
     display: flex;
     flex-direction: row;
+    border-bottom: 1px solid #e3e8ee;
 }
 .user-icon{
     margin: 15rpx 0rpx;

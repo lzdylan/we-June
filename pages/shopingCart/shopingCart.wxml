@@ -1,6 +1,6 @@
 <!--pages/shopingCart/shopingCart.wxml-->
 <import src="../space/space.wxml"/>
-<scroll-view class="container">
+<view class="container">
     <template is="spaceTemplate"></template>
     <view class="list-box">
         <text class="list-title">购物清单</text>
@@ -67,4 +67,4 @@
     <view class="submit">
         <button type="primary">微信支付</button>
     </view>
-</scroll-view>
+</view>

@@ -1,16 +1,16 @@
-/* pages/addAddress/addAddress.wxss */
+/* pages/addAssess/addAssess.wxss */
 .container{
     margin-bottom: 300rpx;
 }
-.addAddress{
+.addAssess{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.addAddress:last-child{
+.addAssess:last-child{
     border-bottom: none;
 }
-.address-title{
+.assess-title{
     line-height: 80rpx;
     padding-left: 20rpx;
     background: #e3e8ee;
@@ -19,31 +19,24 @@
     margin: 0rpx 20rpx;
     line-height: 80rpx;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    border-bottom: 1px solid #e3e8ee;
 }
 .form-item:last-child{
     border-bottom: none;
 }
 .label{
-    width: 140rpx;
-}
-.form-item picker{
-    font-family: "微软雅黑";
-    width: 560rpx;
-    line-height: 80rpx;
-    height: 80rpx;
-}
-.form-item input{
-    width: 560rpx;
-    line-height: 80rpx;
-    height: 80rpx;
+    display: block;
+    border-bottom: 1px solid #e3e8ee;
 }
 .form-item textarea{
     width: 710rpx;
-    height: 96rpx;
     margin-top: 20rpx;
+    border: 1px solid #e3e8ee;
+}
+.form-item image{
+    margin-top: 20rpx;
+    margin-left: 20rpx;
 }
 .submit{
     position: fixed;

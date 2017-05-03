@@ -1,5 +1,5 @@
 <!--pages/assess/assess.wxml-->
-<scroll-view class="container">
+<view class="container">
     <view class="assess">
         <view class="user-header">
             <image src="../../images/goods.jpg" class="userinfo-avatar" mode="aspectFill"></image>
@@ -43,4 +43,4 @@
             <text class="assess-time">2017-04-24</text>
         </view>
     </view>
-</scroll-view>
+</view>

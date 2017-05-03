@@ -1,6 +1,6 @@
 <!--pages/orderDetails/orderDetails.wxml-->
 <import src="../space/space.wxml"/>
-<scroll-view class="container">
+<view class="container">
     <view class="orderDetails">
         <view class="order-mess">
             <text class="order-title">订单信息</text>
@@ -41,6 +41,7 @@
         <template is="spaceTemplate"></template>
     </view>
     <view class="submit">
-        <button type="primary">微信支付</button>
+        <button type="primary" wx:if="{{state === 0}}">微信支付</button>
+        <button type="primary" wx:if="{{state === 1}}">评论</button>
     </view>
-</scroll-view>
+</view>

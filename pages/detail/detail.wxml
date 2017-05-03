@@ -1,6 +1,6 @@
 <!--pages/detail/detail.wxml-->
 <import src="../space/space.wxml"/>
-<scroll-view class="container">
+<view class="container">
     <view class="detail">
         <swiper indicator-dots="true" autoplay="true" style="height:173px" indicator-color="#464c5b" indicator-active-color="#e3e8ee">
             <swiper-item>
@@ -64,6 +64,9 @@
         <template is="spaceTemplate"/>
     </view>
     <view class="submit">
-        <button type="primary" bindtap="goShopingCart">立即购买</button>
+        <button class="share-index" bindtap="goIndex">首页</button><button class="share-buy" type="primary" bindtap="goShopingCart">立即购买</button>
     </view>
-</scroll-view>
+    <view class="submit">
+        <button type="primary" style="width:100%" bindtap="goShopingCart">立即购买</button>
+    </view>
+</view>

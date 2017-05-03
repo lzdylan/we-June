@@ -6,6 +6,20 @@ Page({
     label: ['南洋金珠','14-16mm正圆无暇','经典吊坠'],
     userInfo: {}
   },
+  goIndex: function() {
+    wx.switchTab({
+      url: '../index/index',
+      success: function(res){
+        // success
+      },
+      fail: function(res) {
+        // fail
+      },
+      complete: function(res) {
+        // complete
+      }
+    })
+  },
   goShopingCart: function() {
     wx.switchTab({
       url: '../shopingCart/shopingCart',

@@ -1,0 +1,25 @@
+<!--pages/addAssess/addAssess.wxml-->
+<view class="container">
+    <view class="addAssess">
+        <text class="assess-title">商品评价</text>
+        <view class="form-item">
+            <text class="label">添加图片：</text>
+            <view class="image-box">
+                <image src="../../images/15.jpg" mode="widthFix" style="width:60px; height:60px"></image>
+                <image src="../../images/2.jpg" mode="widthFix" style="width:60px; height:60px"></image>
+                <image src="../../images/8.jpg" mode="widthFix" style="width:60px; height:60px"></image>
+                <image src="../../images/15.jpg" mode="widthFix" style="width:60px; height:60px"></image>
+                <image src="../../images/2.jpg" mode="widthFix" style="width:60px; height:60px"></image>
+                <image src="../../images/8.jpg" mode="widthFix" style="width:60px; height:60px"></image>
+                <image src="../../images/add.png" mode="widthFix" style="width:60px; height:60px"></image>
+            </view>
+        </view>
+        <view class="form-item">
+            <text class="label">添加评论：</text>
+            <textarea />
+        </view>
+    </view>
+    <view class="submit">
+        <button type="primary" bindtap="goShopingCart">保存</button>
+    </view>
+</view>

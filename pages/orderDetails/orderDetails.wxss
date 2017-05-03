@@ -1,7 +1,7 @@
 /* pages/orderDetails/orderDetails.wxss */
 @import "../space/space.wxss";
 .orderDetails{
-    padding-bottom: 120rpx;
+    padding-bottom: 92rpx;
     line-height: 80rpx;
 }
 .order-mess{
@@ -12,7 +12,7 @@
 .order-title{
     background: #e3e8ee;
     padding-left: 20rpx;
-    line-height: 60rpx;
+    line-height: 80rpx;
 }
 .message-box{
     display: flex;
@@ -52,7 +52,7 @@
     background: #e3e8ee;
     display: block;
     padding-left: 20rpx;
-    line-height: 60rpx;
+    line-height: 80rpx;
 }
 .message-block{
     display: flex;
@@ -66,7 +66,7 @@
     background: #e3e8ee;
     display: block;
     padding: 0rpx 20rpx;
-    line-height: 60rpx;
+    line-height: 80rpx;
 }
 .amount-box{
     padding: 0rpx 20rpx;
@@ -83,9 +83,10 @@
 }
 .submit{
     position: fixed;
-    bottom: 0rpx;
+    bottom: -2rpx;
     width: 100%;
     background: #ffffff;
+    z-index: 1000;
 }
 .submit button{
     border-radius: 0rpx;

@@ -1,6 +1,6 @@
 <!--pages/category/category.wxml-->
-<scroll-view class="container">
-    <view scroll-y="true" class="scroll-view">
+<view class="container">
+    <view class="scroll-view">
         <text class="title">—— 颈链 ——</text>
         <view class="scroll-view-content">
                 <view class="scroll-img" bindtap="goList">
@@ -161,4 +161,4 @@
                 </view>
         </view>
     </view>
-</scroll-view>
+</view>

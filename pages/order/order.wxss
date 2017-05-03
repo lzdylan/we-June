@@ -2,7 +2,7 @@
 @import "../space/space.wxss";
 .order-title{
     background: #e3e8ee;
-    line-height: 60rpx;
+    line-height: 80rpx;
     display: block;
     padding-left: 20rpx;
 }
@@ -11,6 +11,10 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 10rpx;
+    border-bottom: 1px solid #e3e8ee;
+}
+.order-mes:last-child{
+    border-bottom: none;
 }
 .order-state-box{
     width: 500rpx;
